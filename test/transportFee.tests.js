@@ -1,9 +1,9 @@
 describe('Which shift', function(){
 
-    it('should tell how much to pay', function(){
+    it('should tell how much to pay in the morning', function(){
         assert.equal(transportFee('morning'),'R20');
     });
-    it('should tell hiow much to pay', function(){
+    it('should tell how much to pay in the afternoon', function(){
 
         assert.equal(transportFee('afternoon'),'R10');
     });
