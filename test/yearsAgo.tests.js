@@ -1,4 +1,4 @@
-describe('How many years Ago', function(){
+describe(' yearsAgo', function(){
 
     it('should say how many years ago', function(){
         assert.equal(yearsAgo(2006),12);

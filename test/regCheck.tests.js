@@ -1,4 +1,4 @@
-describe('Check if regNumber if for that place', function(){
+describe('regCheck', function(){
 
     it('should indentify regNumber correctly', function(){
         assert.equal(regCheck('CY4666','ND'),false);
